@@ -18,18 +18,7 @@ with st.expander('About this app'):
 
   st.markdown('**How to use the app?**')
   st.warning('To engage with Note AI, set your OpenAI API key, upload your files, enter your instruction or question, and hit enter to get the answer. If you want to change the temperature of the content, use the slider.')
-
-  st.markdown('**Under the hood**')
-  st.markdown('Data sets:')
-  st.code('''- Drug solubility data set
-  ''', language='markdown')
   
-  st.markdown('Libraries used:')
-  st.code('''- Pandas for data wrangling
-- Scikit-learn for building a machine learning model
-- Altair for chart creation
-- Streamlit for user interface
-  ''', language='markdown')
 
 
 # Sidebar for accepting input parameters
