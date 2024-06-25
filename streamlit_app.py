@@ -9,15 +9,15 @@ import time
 import zipfile
 
 # Page title
-st.set_page_config(page_title='ML model builder', page_icon='🏗️')
-st.title('🏗️ ML model builder')
+st.set_page_config(page_title='Note AI', page_icon='🏗️')
+st.title('🏗️ Note AI')
 
 with st.expander('About this app'):
   st.markdown('**What can this app do?**')
-  st.info('This app allow users to build a machine learning (ML) model in an end-to-end workflow. Particularly, this encompasses data upload, data pre-processing, ML model building and post-model analysis.')
+  st.info('Note AI lets you upload your notes directly into the system, where it reads and analyzes them to provide accurate, context-specific answers.')
 
   st.markdown('**How to use the app?**')
-  st.warning('To engage with the app, go to the sidebar and 1. Select a data set and 2. Adjust the model parameters by adjusting the various slider widgets. As a result, this would initiate the ML model building process, display the model results as well as allowing users to download the generated models and accompanying data.')
+  st.warning('To engage with Note AI, set your OpenAI API key, upload your files, enter your instruction or question, and hit enter to get the answer. If you want to change the temperature of the content, use the slider.')
 
   st.markdown('**Under the hood**')
   st.markdown('Data sets:')
